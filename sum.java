@@ -1,7 +1,11 @@
 public class Sum{
     public static void main(String[] args){
-       public int a = 20;
-       public int b = 50;
+         int a = 20;
+         int b = 50;
         System.out.println(a+b);
+        multi(a,b);
+    }
+    public static void  multi(int a,int b){
+        System.out.println(a*b);
     }
 }
